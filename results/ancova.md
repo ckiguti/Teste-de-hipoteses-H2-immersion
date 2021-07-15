@@ -48,7 +48,7 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | non.gamified | upper     | fss      |   5 | 3.244 |  3.444 | 2.556 | 3.889 | 0.600 | 0.269 | 0.746 | 1.000 | YES      |   -0.156 |   -2.165 |
 | NA           | NA        | fss      |  28 | 3.504 |  3.444 | 2.556 | 4.556 | 0.630 | 0.119 | 0.244 | 0.944 | YES      |    0.356 |   -1.090 |
 
-![](/home/rstudio/report/ancova/7c10857cc339ec6d/results/ancova_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](ancova_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
     ## [1] "P32"
 
@@ -122,7 +122,7 @@ ggscatter(sdat[["fss"]], x=covar, y="fss", facet.by=between, short.panel.labs = 
 
     ## `geom_smooth()` using formula 'y ~ x'
 
-![](/home/rstudio/report/ancova/7c10857cc339ec6d/results/ancova_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+![](ancova_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
 
 ### Assumption: Homogeneity of data distribution
 
@@ -148,7 +148,7 @@ Descriptive statistics of data with normal distribution
 | fss.3 | non.gamified | lower     | fss      |   7 | 3.635 |  3.556 | 3.222 | 4.556 | 0.487 | 0.184 | 0.451 | 0.500 |
 | fss.4 | non.gamified | upper     | fss      |   5 | 3.244 |  3.444 | 2.556 | 3.889 | 0.600 | 0.269 | 0.746 | 1.000 |
 
-![](/home/rstudio/report/ancova/7c10857cc339ec6d/results/ancova_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
+![](ancova_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
 
 ## Computation of ANCOVA test and Pairwise Comparison
 
@@ -192,7 +192,7 @@ plots <- twoWayAncovaPlots(sdat[["fss"]], "fss", between
 plots[["scenario"]]
 ```
 
-![](/home/rstudio/report/ancova/7c10857cc339ec6d/results/ancova_files/figure-gfm/unnamed-chunk-25-1.png)<!-- -->
+![](ancova_files/figure-gfm/unnamed-chunk-25-1.png)<!-- -->
 
 #### Plot for: `fss` \~ `immersion`
 
@@ -200,7 +200,7 @@ plots[["scenario"]]
 plots[["immersion"]]
 ```
 
-![](/home/rstudio/report/ancova/7c10857cc339ec6d/results/ancova_files/figure-gfm/unnamed-chunk-26-1.png)<!-- -->
+![](ancova_files/figure-gfm/unnamed-chunk-26-1.png)<!-- -->
 
 ### Textual Report
 
